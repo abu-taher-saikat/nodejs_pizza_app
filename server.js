@@ -4,11 +4,16 @@ const path = require('path')
 const ejs = require('ejs')
 const expressLayout = require('express-ejs-layouts')
 
+
+
 app.get('/',(req,res)=>{
     res.render('home')
 })
 
 
+
+// Assets 
+app.use(express.static('public'))
 // Set Template engine
 app.use(expressLayout);
 app.set('views', path.join(__dirname, '/resources/views'));

@@ -25,6 +25,10 @@
   },
   "devDependencies": {
     "laravel-mix": "^6.0.6",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "postcss": "^8.1.14",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.32.0",
+    "sass-loader": "^8.0.2"
   }
 }
