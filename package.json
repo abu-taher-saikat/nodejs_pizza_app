@@ -27,7 +27,8 @@
     "express-ejs-layouts": "^2.5.0",
     "express-flash": "0.0.2",
     "express-session": "^1.17.1",
-    "mongoose": "^5.11.10"
+    "mongoose": "^5.11.10",
+    "noty": "^3.2.0-beta"
   },
   "devDependencies": {
     "laravel-mix": "^6.0.6",
